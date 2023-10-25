@@ -12,7 +12,9 @@ type Client struct {
 }
 
 func (c Client) Run() {
-	fmt.Println(c.config)
+	for _, s := range c.config.Servers {
+		fmt.Println(s)
+	}
 	http.ListenAndServe("127.0.0.1:9000", c)
 }
 

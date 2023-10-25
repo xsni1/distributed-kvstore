@@ -8,7 +8,7 @@ import (
 )
 
 type Config struct {
-	Servers struct{ name string }
+	Servers []struct{ Address string }
 }
 
 // jak returnowac error jak sa dwa returny? pointer?

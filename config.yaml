@@ -1,3 +1,6 @@
 servers:
-- name: "a"
-- name: "c"
+  - address: "127.0.0.1:8081"
+  - address: "127.0.0.1:8082"
+  - address: "127.0.0.1:8083"
+  - address: "127.0.0.1:8084"
+  - address: "127.0.0.1:8085"
