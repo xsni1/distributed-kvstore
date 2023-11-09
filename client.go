@@ -7,7 +7,7 @@ import (
 )
 
 // Responsible for selecting correct server node
-// for partitioning purposes using consistent hashing method
+// for partitioning purposes consistent hashing has been used
 type Client struct {
 	config Config
 }
